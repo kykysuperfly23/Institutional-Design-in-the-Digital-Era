@@ -6,17 +6,17 @@ This folder contains the materials for **Part 3 (Behavioral Scientist)** of the 
 
 **Requirements:** Python 3.10+ and `otree` (v5+).
 
-```bash
+``
 python -m venv .venv
 . .venv/bin/activate     # (Windows: .venv\Scripts\activate)
-pip install otree```
+pip install otree``
 
 ### Run Locally
 
-```unzip otree_app.zip -d otree_app
+``unzip otree_app.zip -d otree_app
 cd otree_app
 export OTREE_AUTH_LEVEL=DEMO    # (Windows PowerShell) $env:OTREE_AUTH_LEVEL="DEMO"
-otree devserver```
+otree devserver``
 
 Open the admin URL shown in the terminal. Create a session with the config named, e.g., demand_game.
 
