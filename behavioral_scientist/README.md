@@ -9,7 +9,7 @@ This folder contains the materials for **Part 3 (Behavioral Scientist)** of the 
 ```bash
 python -m venv .venv
 . .venv/bin/activate     # (Windows: .venv\Scripts\activate)
-pip install otree
+pip install otree```
 
 ### Run Locally
 
