@@ -1,35 +1,57 @@
-# Bargaining by "Dividing-the-Dollar": An Interdisciplinary Study
+# Institutional Design in the Digital Era: Re-Examining Microeconomics with Human Subjects and Artificial Agents
 
-## Abstract
-We study a two-player bargaining (Nash demand) game across three lenses: **economist** (theory & welfare), **computational scientist** (algorithmic computation and extensive-form modeling), and **behavioral scientist** (human vs. LLM play in repeated rounds). The normal form exhibits **frontier multiplicity** and frequent **degeneracy** in solver outputs, while a GTE (Game Theory Explorer) tree with a single information set reproduces simultaneous-move equilibria as SPNE. In brief experiments, humans showed sharp “post-bust” caution, whereas LLMs adjusted smoothly toward fair splits with payoff visibility. We propose a simple refinement—bust-salient, aspiration-based choice—as a bridge between predictions and observed behavior.
+## 📑 Project Abstract
+This project explores how mechanism design can be tested through a combination of theoretical game analysis, computational simulations, human experiments, and large language model (LLM) play. Focusing on bargaining problems, highest unique bid (HUB) auctions, and voting innovations (the Split-Ballot Majority Mechanism), the study highlights how institutional rules shape outcomes and legitimacy. Results emphasize the multiplicity of equilibria, bounded rationality in human play, and adaptive strategies in LLMs, offering forward-looking proposals for fairer and more transparent governance mechanisms.  
+
+## 👩‍💻 Authors and Roles
+- **Kyaira Boughton**  
+  - *Economist*: Theoretical analysis of bargaining problems, fairness benchmarks (Nash Bargaining Solution, Kalai–Smorodinsky).  
+  - *Computational Scientist*: Equilibrium computation with Python (NashPy, QuantEcon), Game Theory Explorer (GTE) outputs.  
+  - *Behavioral Scientist*: Human experiments using oTree; comparison to LLM behavior (ChatGPT, Claude).  
+  - *Mechanism Designer*: Development of the Split-Ballot Majority Mechanism and auction variations.  
+
+## ⚠️ Disclaimer
+This repository supports the final research proposal submitted to **COMSCI/ECON 206: Computational Microeconomics**, instructed by Prof. Luyao Zhang at Duke Kunshan University in Autumn 2025:contentReference[oaicite:1]{index=1}.
+
+## 🙏 Acknowledgments
+Special thanks to **Professor Luyao Zhang** for guidance, and classmates **Yihan Chen** and **Zijun Ding** for constructive feedback. I also acknowledge the contributions of AIGC tools (ChatGPT, Claude) for assistance in grammar and formatting, and the open-source communities behind **NashPy**, **QuantEcon**, **GTE**, and **oTree**, as well as **GitHub** for ensuring reproducibility and transparency:contentReference[oaicite:2]{index=2}.
+
+## 🌱 Statement of Intellectual and Professional Growth
+This project enhanced my ability to design and execute interdisciplinary research. By integrating theoretical economics, computational methods, and experimental design, I developed stronger skills in reproducibility, open-source collaboration, and critical reflection on fairness and legitimacy in mechanism design. Professionally, I learned to respond to critiques, format research proposals, and leverage platforms like oTree and GitHub as tools for rigorous social science:contentReference[oaicite:3]{index=3}.
+
+## 📂 Repository Structure
+Institutional-Design-in-the-Digital-Era/
+├── economist/ # Theoretical analysis (game theory, welfare, fairness)
+├── computational_scientist/ # Python scripts, Jupyter notebooks, solver outputs
+├── behavioral_scientist/ # oTree apps, human experiment results, LLM transcripts
+├── mechanism_design/ # Auction/voting mechanism design (HUB, SBMM)
+├── visualizations/ # Figures, payoff matrices, equilibrium diagrams, charts
+├── docs/ # Project documentation
+│ ├── Report.pdf # Final written report
+│ ├── Poster.pdf # Symposium poster
+│ └── FieldTripReflection.md # Reflection linking field trip to methodology & impacts
+└── README.md # Root project README
+
+## 📑 Table of Contents
+- [Project Abstract](#-project-abstract)  
+- [Authors and Roles](#-authors-and-roles)  
+- [Disclaimer](#-disclaimer)  
+- [Acknowledgments](#-acknowledgments)  
+- [Statement of Growth](#-statement-of-intellectual-and-professional-growth)  
+- [Repository Structure](#-repository-structure)  
+- [Navigation Instructions](#-navigation-instructions)  
+- [Embedded Media](#-embedded-media)  
+
+## 🧭 Navigation Instructions
+- **Equilibria computation**: See [`computational_scientist/`](./computational_scientist/) for NashPy scripts, solver logs, and GTE outputs.  
+- **Mechanism design**: See [`mechanism_design/`](./mechanism_design/) for auction rule variations and voting system proposals.  
+- **Experiments**: Human subject data and oTree applications are in [`behavioral_scientist/`](./behavioral_scientist/).  
+- **Visualizations**: Figures, payoff matrices, and equilibrium diagrams are in [`visualizations/`](./visualizations/).  
+- **Documentation**: Final report, symposium poster, and reflection essay are in [`docs/`](./docs/).  
+
+## 🎥 Embedded Media
+- **Poster PDF:** [View Poster](./docs/Poster.pdf)
 
 ---
 
-## Task Summary
-- **Part 1 — Economist (theory & welfare):**  
-  Formalize the bargaining problem \((F,d)\); present the **Nash Bargaining Solution** and **Kalai–Smorodinsky** refinement; connect cooperative benchmarks to the simultaneous **divide-the-dollar** game and discuss multiplicity, bounded rationality, and tractability.  
-  _See:_ `economist/README.md` and `economist/refs/`.
-
-- **Part 2 — Computational Scientist (coding & tools):**  
-  **2a.** Build normal-form payoff matrices and compute equilibria with **NashPy** (include solver outputs and matrices).  
-  **2b.** In **GTE**, build the extensive form with P2’s nodes in one information set (simultaneity), solve with SPNE, and capture screenshots of the tree and solution panel.  
-  _See:_ `computational_scientist/README.md`, `computational_scientist/notebook.ipynb`, `computational_scientist/screenshots/`, and optional `computational_scientist/gte/`.
-
-- **Part 3 — Behavioral Scientist (experiment & AI comparison):**  
-  **3a.** Deploy an **oTree** app (5-round repeated play), run a short human session, and save screenshots.  
-  **3b.** Run an **LLM vs LLM** session (ChatGPT vs Claude) with identical framing; log prompts, settings, and transcripts.  
-  **3c.** Provide a concise comparative analysis (humans vs LLMs vs theory).  
-  _See:_ `behavioral_scientist/README.md`, `behavioral_scientist/otree_app.zip`, `behavioral_scientist/screenshots/`, and `behavioral_scientist/llm/`.
-
----
-
-## Reproduction Steps
-
-### 0) Clone and prepare
-```bash
-git clone <this-repo-url>
-cd <repo-root>
-python -m venv .venv
-# Windows: .venv\Scripts\activate
-# macOS/Linux:
-source .venv/bin/activate
+✍️ *This repository reflects the FAIR (Findable, Accessible, Interoperable, Reusable) and CARE (Collective Benefit, Authority to Control, Responsibility, Ethics) principles to ensure reproducibility, transparency, and professional practice in computational social science research.*
