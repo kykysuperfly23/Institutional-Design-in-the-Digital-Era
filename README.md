@@ -11,13 +11,13 @@ This project explores how mechanism design can be tested through a combination o
   - *Mechanism Designer*: Development of the Split-Ballot Majority Mechanism and auction variations.  
 
 ## ⚠️ Disclaimer
-This repository supports the final research proposal submitted to **COMSCI/ECON 206: Computational Microeconomics**, instructed by Prof. Luyao Zhang at Duke Kunshan University in Autumn 2025:contentReference[oaicite:1]{index=1}.
+This repository supports the final research proposal submitted to **COMPSCI/ECON 206: Computational Microeconomics**, instructed by Prof. Luyao Zhang at Duke Kunshan University in Autumn 2025.
 
 ## 🙏 Acknowledgments
-Special thanks to **Professor Luyao Zhang** for guidance, and classmates **Yihan Chen** and **Zijun Ding** for constructive feedback. I also acknowledge the contributions of AIGC tools (ChatGPT, Claude) for assistance in grammar and formatting, and the open-source communities behind **NashPy**, **QuantEcon**, **GTE**, and **oTree**, as well as **GitHub** for ensuring reproducibility and transparency:contentReference[oaicite:2]{index=2}.
+Special thanks to **Professor Luyao Zhang** for guidance, the class of COMPSCI 206, and the specific classmates **Yihan Chen** and **Zijun Ding** for constructive feedback. I also acknowledge the contributions of AIGC tools (ChatGPT, Claude) for assistance in grammar and formatting, and the open-source communities behind **NashPy**, **QuantEcon**, **GTE**, and **oTree**, as well as **GitHub** for ensuring reproducibility and transparency.
 
 ## 🌱 Statement of Intellectual and Professional Growth
-This project enhanced my ability to design and execute interdisciplinary research. By integrating theoretical economics, computational methods, and experimental design, I developed stronger skills in reproducibility, open-source collaboration, and critical reflection on fairness and legitimacy in mechanism design. Professionally, I learned to respond to critiques, format research proposals, and leverage platforms like oTree and GitHub as tools for rigorous social science:contentReference[oaicite:3]{index=3}.
+This project enhanced my ability to design and execute interdisciplinary research. By integrating theoretical economics, computational methods, and experimental design, I developed stronger skills in reproducibility, open-source collaboration, and critical reflection on fairness and legitimacy in mechanism design. Professionally, I learned to respond to critiques, format research proposals, and leverage platforms like oTree and GitHub as tools for rigorous social science.
 
 ## 📂 Repository Structure
 ```
