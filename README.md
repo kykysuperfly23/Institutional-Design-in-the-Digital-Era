@@ -20,7 +20,8 @@ Special thanks to **Professor Luyao Zhang** for guidance, and classmates **Yihan
 This project enhanced my ability to design and execute interdisciplinary research. By integrating theoretical economics, computational methods, and experimental design, I developed stronger skills in reproducibility, open-source collaboration, and critical reflection on fairness and legitimacy in mechanism design. Professionally, I learned to respond to critiques, format research proposals, and leverage platforms like oTree and GitHub as tools for rigorous social science:contentReference[oaicite:3]{index=3}.
 
 ## 📂 Repository Structure
-```Institutional-Design-in-the-Digital-Era/
+```
+Institutional-Design-in-the-Digital-Era/
 ├── economist/ # Theoretical analysis (game theory, welfare, fairness)
 ├── computational_scientist/ # Python scripts, Jupyter notebooks, solver outputs
 ├── behavioral_scientist/ # oTree apps, human experiment results, LLM transcripts
@@ -30,7 +31,8 @@ This project enhanced my ability to design and execute interdisciplinary researc
 │ ├── Report.pdf # Final written report
 │ ├── Poster.pdf # Symposium poster
 │ └── FieldTripReflection.md # Reflection linking field trip to methodology & impacts
-└── README.md # Root project README ```
+└── README.md # Root project README
+```
 
 ## 📑 Table of Contents
 - [Project Abstract](#-project-abstract)  
